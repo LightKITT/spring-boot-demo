@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author yangkai.shen
- * @date Created in 2018-09-28 14:49
+ * {@code @date} Created in 2018-09-28 14:49
  */
 @SpringBootApplication
 @RestController
-public class SpringBootDemoHelloworldApplication {
+public class SpringBootDemoHelloWorldApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoHelloworldApplication.class, args);
+        SpringApplication.run(SpringBootDemoHelloWorldApplication.class, args);
     }
 
     /**
